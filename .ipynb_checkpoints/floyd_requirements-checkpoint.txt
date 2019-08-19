@@ -1,0 +1,5 @@
+menpo
+imageio
+moviepy
+gtts
+pygame

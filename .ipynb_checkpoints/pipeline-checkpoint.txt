@@ -1,0 +1,56 @@
+    1  git clone https://github.com/blitzingeagle/VehicleSuperRes.git
+    2  cd VehicleSuperRes
+    3  mkdir images output videos frame
+    4  ls
+    5  rm -r frame
+    6  mkdir frames
+    7  pip install -r requirements.txt
+    8  cd .../
+    9  cd ../
+   10  pip install .
+   11  python emotions.py
+   12  mv input.avi /floyd/home/VehicleSuperRes/videos
+   13  cd /floyd/home/VehicleSuperRes
+   14  python python convert.py video --ext avi
+   15  python convert.py video --ext avi
+   16  mv floyd/home/VehicleSuperRes/frames/input.avi floyd/home/
+   17  mv /floyd/home/VehicleSuperRes/frames/input.avi floyd/home/
+   18  mv /floyd/home/VehicleSuperRes/frames/input.avi /floyd/home/
+   19  cd /floyd/home/
+   20  python pypxl_video.py -s 480 640 input.avi output.avi
+   21  python emotions.py
+   22  mv input.avi /floyd/home/VehicleSuperRes/videos
+   23  cd /floyd/home/VehicleSuperRes
+   24  python convert.py video --ext avi
+   25  mv /floyd/home/VehicleSuperRes/frames/input.avi /floyd/home/
+   26  python pypxl_video.py -s 480 640 input.avi output.avi
+   27  cd /floyd/home/
+   28  python pypxl_video.py -s 480 640 input.avi output.avi
+   29  cd /floyd/home/VehicleSuperRes
+   30  cd ../
+   31  cp input.avi /floyd/home/VehicleSuperRes/videos
+   32  cd /floyd/home/VehicleSuperRes
+   33  python convert.py video --ext avi
+   34  mv /floyd/home/VehicleSuperRes/frames/input.avi /floyd/home/
+   35  mv input.avi /floyd/home/VehicleSuperRes/videos
+   36  cd ../
+   37  mv input.avi /floyd/home/VehicleSuperRes/videos
+   38  cd /floyd/home/VehicleSuperRes
+   39  python convert.py video --ext avi
+   40  mv /floyd/home/VehicleSuperRes/frames/input.avi /floyd/home/
+   41  cd ../
+   42  python pypxl_video.py -s 480 640 input.avi output.avi
+   43  python pypxl_video.py -s 240 352 input.avi pixel_240_352.avi
+   44  history > pipeline.txt
+   45  pip freeze > req_gpu.txt
+   46  ffmpeg -i output_hirez.mp4 -i /example/message_audio.mp3 -codec copy -shortest output.avi
+   47  ffmpeg -i output_hirez.mp4 -i floyd/home/example/message_audio.mp3 -codec copy -shortest output_hirez.mp4
+   48  ffmpeg -i output_hirez.mp4 -i home/example/message_audio.mp3 -codec copy -shortest output_hirez.mp4
+   49  ffmpeg -i output_hirez.mp4 -i floyd/home/example/message_audio.mp3 -codec copy -shortest output_hirez.mp4
+   50  ffmpeg -i output_hirez.mp4 -i /floyd/home/example/message_audio.mp3 -codec copy -shortest output_hirez.mp4
+   51  ffmpeg -i output_hirez.mp4 -i /floyd/home/example/message_audio.mp3 -codec acodec aac -vcodec copy -shortest output_hr_sound.mp4
+   52  ffmpeg -i output_hirez.mp4 -i /floyd/home/example/message_audio.mp3 -acodec aac -vcodec copy -shortest output_hr_sound.mp4
+   53  ffmpeg -i output_hirez.mp4 -i /floyd/home/example/message_audio.mp3 -acodec aac -strict experimental -vcodec copy -shortest output_hr_sound.mp4
+   54  ffmpeg -i pix_240_352.mp4 -i /floyd/home/example/message_audio.mp3 -acodec aac -strict experimental -vcodec copy -shortest output_pix_240_352_sound.mp4
+   55  ffmpeg -i pix_480_640.mp4 -i /floyd/home/example/message_audio.mp3 -acodec aac -strict experimental -vcodec copy -shortest output_pix_480_640_sound.mp4
+   56  history > pipeline.txt
