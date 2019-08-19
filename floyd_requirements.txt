@@ -3,3 +3,8 @@ imageio
 moviepy
 gtts
 pygame
+argparse
+torch
+torchvision
+numpy
+opencv-python
